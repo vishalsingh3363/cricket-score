@@ -4,6 +4,7 @@ import pandas as pd
 import numpy as np
 import xgboost
 from xgboost import XGBRegressor
+import sklearn
 
 pipe = pickle.load(open('pipe.pkl','rb'))
 
